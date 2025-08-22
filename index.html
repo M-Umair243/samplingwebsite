@@ -1,148 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Single Page Website</title>
-  <style>
-    /* Reset */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Page Website</title>
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-    }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
 
-    /* Navbar */
-    nav {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      background: #333;
-      padding: 15px;
-      display: flex;
-      justify-content: center;
-      z-index: 1000;
-    }
+        /* Navbar */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: #333;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            z-index: 1000;
+        }
 
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 15px;
-      font-weight: bold;
-      transition: color 0.3s ease;
-    }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
 
-    nav a:hover {
-      color: #f39c12;
-    }
+        nav a:hover {
+            color: #f39c12;
+        }
 
-    /* Sections */
-    section {
-      min-height: 100vh;
-      padding: 80px 20px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-    }
+        /* Sections */
+        section {
+            min-height: 100vh;
+            padding: 80px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
 
-    #home {
-      background: #f39c12;
-      color: white;
-    }
+        #home {
+            background: #f39c12;
+            color: white;
+        }
 
-    #blog {
-      background: #3498db;
-      color: white;
-    }
+        #blog {
+            background: #3498db;
+            color: white;
+        }
 
-    #about {
-      background: #2ecc71;
-      color: white;
-    }
+        #about {
+            background: #2ecc71;
+            color: white;
+        }
 
-    #contact {
-      background: #9b59b6;
-      color: white;
-    }
+        #contact {
+            background: #9b59b6;
+            color: white;
+        }
 
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 20px;
-    }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
 
-    p {
-      max-width: 600px;
-      text-align: center;
-      font-size: 1.1rem;
-    }
+        p {
+            max-width: 600px;
+            text-align: center;
+            font-size: 1.1rem;
+        }
 
-    /* Responsive */
-    @media(max-width: 768px) {
-      nav {
-        flex-direction: column;
-      }
-      nav a {
-        margin: 10px 0;
-      }
-      h1 {
-        font-size: 2rem;
-      }
-      p {
-        font-size: 1rem;
-      }
-    }
-  </style>
+        /* Responsive */
+        @media(max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+
+            nav a {
+                margin: 10px 0;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+    </style>
 </head>
+
 <body>
-  <!-- Navigation -->
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#blog">Blog</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact Us</a>
-  </nav>
+    <!-- Navigation -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#blog">Blog</a>
+        <a href="#about">test</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
 
-  <!-- Home Section -->
-  <section id="home">
-    <h1>Welcome to Our Website</h1>
-    <p>This is the home section of our responsive single page website.</p>
-  </section>
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to Our Website</h1>
+        <p>This is the home section of our responsive single page website.</p>
+    </section>
 
-  <!-- Blog Section -->
-  <section id="blog">
-    <h1>Our Blog</h1>
-    <p>Here you will find articles, updates, and interesting stories about our work.</p>
-  </section>
+    <!-- Blog Section -->
+    <section id="blog">
+        <h1>Our Blog</h1>
+        <p>Here you will find articles, updates, and interesting stories about our work.</p>
+    </section>
 
-  <!-- About Section -->
-  <section id="about">
-    <h1>About Us</h1>
-    <p>We are a creative team passionate about building web experiences that are simple and engaging.</p>
-  </section>
+    <!-- About Section -->
+    <section id="about">
+        <h1>About Us</h1>
+        <p>We are a creative team passionate about building web experiences that are simple and engaging.</p>
+    </section>
 
-  <!-- Contact Section -->
-  <section id="contact">
-    <h1>Contact Us</h1>
-    <p>Get in touch via email or phone. We'd love to hear from you!</p>
-  </section>
+    <!-- Contact Section -->
+    <section id="contact">
+        <h1>Contact Us</h1>
+        <p>Get in touch via email or phone. We'd love to hear from you!</p>
+    </section>
 
-  <!-- JavaScript for Smooth Scrolling -->
-  <script>
-    document.querySelectorAll("nav a").forEach(anchor => {
-      anchor.addEventListener("click", function(e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute("href")).scrollIntoView({
-          behavior: "smooth"
+    <!-- JavaScript for Smooth Scrolling -->
+    <script>
+        document.querySelectorAll("nav a").forEach(anchor => {
+            anchor.addEventListener("click", function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute("href")).scrollIntoView({
+                    behavior: "smooth"
+                });
+            });
         });
-      });
-    });
-  </script>
+    </script>
 </body>
+
 </html>
